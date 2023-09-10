@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task1</title>
+    <link href="./style1.css" rel="stylesheet" type="text/css"/>
+
+   
+</head>
+<style>h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    
+}
+table{
+    background-color:#84CACF;
+    border: 2px;
+    
+}
+
+thead {
+    text-align: center;
+    
+    
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid black;
+    background-color:#84CACF;
+    padding: 5px;
+    width: 300px;
+    /* Add border-radius for curved edges */
+    border-radius: 10px;
+}
+
+td {
+    text-align: left; /* Keep text alignment left for table data cells */
+}
+
+body {
+    background-color: whitesmoke;
+}
+th:nth-child(3),
+td:nth-child(3) {
+    width: 100px; /* Adjust the width as needed */
+}
+</style>
+<body>
+    <h1>Task1</h1>
+    <div class="container">
+        <table id="Task1">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th >Age</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>80</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+</body>
+</html>
